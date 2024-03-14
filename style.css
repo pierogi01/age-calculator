@@ -1,0 +1,47 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 3px rgba(73, 175, 237, 1);
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    background-color: #8dcfec;
+}
+
+body{
+    background-color: #235284;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-shadow: 2px 2px 6px rgba(73, 175, 237, 1);
+    color: white;
+}
+
+label{
+    display: block;
+    padding: 0 0 10 0;
+}
+.centered{
+    display: block;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+button{
+    padding: 10px;
+    color: white;
+    background-color: #46a2da;
+    border: none;
+    border-radius: 3px;
+}
+
+input{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+}
